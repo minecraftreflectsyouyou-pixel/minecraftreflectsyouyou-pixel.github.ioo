@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari: The Prancing Horse Legacy</title>
+    <style>
+        :root {
+            --ferrari-red: #D40000;
+            --dark-red: #990000;
+            --pure-white: #FFFFFF;
+            --off-white: #F9F9F9;
+            --text-dark: #222222;
+            --text-gray: #555555;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--pure-white);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* Hero Section with Red & White Theme */
+        header {
+            background: linear-gradient(135deg, var(--ferrari-red), var(--dark-red));
+            color: var(--pure-white);
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom: 8px solid #111;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.3rem;
+            max-width: 700px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Sections */
+        section {
+            background-color: var(--off-white);
+            border: 2px solid #eaeaea;
+            border-radius: 12px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 6px 15px rgba(212, 0, 0, 0.05);
+        }
+
+        section h2 {
+            color: var(--ferrari-red);
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            border-bottom: 3px solid var(--ferrari-red);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        section p {
+            color: var(--text-gray);
+            font-size: 1.05rem;
+            margin-bottom: 15px;
+        }
+
+        /* Gallery Grid */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .car-card {
+            background: var(--pure-white);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .car-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(212, 0, 0, 0.15);
+        }
+
+        .car-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .car-info {
+            padding: 20px;
+        }
+
+        .car-info h3 {
+            color: var(--text-dark);
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        .car-info p {
+            font-size: 0.95rem;
+            color: var(--text-gray);
+            margin: 0;
+        }
+
+        /* Custom Footer with Creators */
+        footer {
+            background-color: #111111;
+            color: var(--pure-white);
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 5px solid var(--ferrari-red);
+        }
+
+        footer h3 {
+            color: var(--ferrari-red);
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .creators {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--pure-white);
+            margin-top: 10px;
+        }
+
+        .creators span {
+            color: var(--ferrari-red);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Header -->
+    <header>
+        <h1>Ferrari: The Prancing Horse</h1>
+        <p>A celebration of unmatched Italian design, racing passion, and engineering excellence.</p>
+    </header>
+
+    <!-- Main Content Container -->
+    <div class="container">
+        
+        <!-- About Section -->
+        <section>
+            <h2>The Heritage of Ferrari</h2>
+            <p>Founded by Enzo Ferrari in 1939 out of Alfa Romeo's race division under the name Auto Avio Costruzioni, Ferrari built its very first car in 1940. However, the company's iconic badge—the legendary "Prancing Horse" (Cavallino Rampante)—was born from a tribute to World War I flying ace Francesco Baracca.</p>
+            <p>Today, Ferrari is globally synonymous with elite luxury, high-performance sports cars, and an unmatched legacy in Formula 1 racing. Every vehicle that leaves the factory in Maranello, Italy, blends heart-stopping speed with pure artistic craftsmanship.</p>
+        </section>
+
+        <!-- Gallery / Car Models Section -->
+        <section>
+            <h2>Iconic Ferrari Designs</h2>
+            <p>Ferrari cars are sculpted in wind tunnels to merge aerodynamic perfection with timeless visual grace. Explore some of the most breathtaking models ever built:</p>
+            
+            <div class="gallery-grid">
+                
+                <!-- Car 1 -->
+                <div class="car-card">
+                    <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=600&q=80" alt="Modern Red Ferrari Sports Car">
+                    <div class="car-info">
+                        <h3>Rosso Corsa Masterpiece</h3>
+                        <p>The iconic shade of international motorsport racing red that defines modern Ferrari supercars on the track and road.</p>
+                    </div>
+                </div>
+
+                <!-- Car 2 -->
+                <div class="car
